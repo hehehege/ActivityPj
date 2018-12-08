@@ -1,0 +1,74 @@
+.fl{float: left;}
+.fr{float: right;}
+
+
+.fileContainer {
+   overflow: hidden;
+   position: relative;
+   background: #ccc;
+   border-radius: .5em;
+   float: left;
+   padding: .5em;
+}
+
+.fileContainer [type=file] {
+   display: block;
+   font-size: 999px;
+   filter: alpha(opacity=0);
+   min-height: 100%;
+   min-width: 100%;
+   opacity: 0;
+   position: absolute;
+   right: 0;
+   text-align: right;
+   top: 0;
+   cursor: pointer;
+}
+#ex-acSubmit span {
+		float: left;
+ 	}
+ 	#ex-acSubmit i{
+ 		float: right;
+ 		color: #f20;
+ 	}
+ 	#ex-acSubmit input[type='text']{
+ 		width: 100%;
+ 		clear: both;
+ 	}
+.ex-inputBox{
+	float:left;
+	margin: 15px 0 20px 190px;
+}
+
+.submit{
+	margin-left: 6.2em;
+}
+
+
+
+.mt-7{margin-top: 7px;}
+.ml-4em{margin-left: 7.5em;}
+.f_input{width: 300px;margin: auto;}
+.f_input #em{color: #666;font-size: 13px;}
+
+#uploadImg{display: inline-block;cursor:pointer; overflow:hidden; position:relative;width: 104px;height: 32px;}
+#importContainerFile{ cursor:pointer;position:absolute; z-index:100; left:0;top:0;width: 104px;height: 32px;opacity:0;filter:alpha(opacity=0);}
+#uploadImg a,
+.submit{
+	display: inline-block;
+	width: 104px;
+	height: 32px;
+	border:0;
+	background:#428cc0;
+	text-align: center;
+	line-height: 32px;
+	color:white;
+	font-size:14px;
+	font-weight:normal;
+	text-decoration: none;
+	cursor:pointer;
+}
+.submit{
+	margin-left: 6.2em;
+}
+#uploadImg a{position: absolute;top:0;left:0;}
