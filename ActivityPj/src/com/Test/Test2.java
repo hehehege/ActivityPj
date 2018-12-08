@@ -39,6 +39,11 @@ public class Test2 {
     	  Activity list=r. readOneExcel(f);
     		
     			System.out.println(list.toString());
+    			System.out.println(list.toString());
+    			System.out.println(list.toString());
+    			System.out.println(list.toString());
+    			System.out.println(list.toString());
+    			
     		
     	
     	  
